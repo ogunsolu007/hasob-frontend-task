@@ -1,0 +1,46 @@
+.sidebar-menu {
+  background-color: #fff;
+  width: 250px;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px 10px;
+  position: fixed;
+}
+
+.sidebar-menu button {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0;
+  border-radius: 0 50% 50% 0;
+  background-color: lightgrey;
+  text-align: center;
+  width: 100%;
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.sidebar-menu button:hover {
+  background-color: brown;
+}
+.nav-text {
+  list-style: none;
+  text-align: center;
+}
+.nav-text a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  padding: 7px 5px;
+  display: flex;
+  align-items: center;
+}
+
+.userpic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}

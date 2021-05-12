@@ -1,0 +1,79 @@
+.userdetail {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.userdetail-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: lightgray 1px solid;
+  width: 70%;
+  margin: 30px auto;
+}
+.userdetail-contact-2 {
+  border: lightgray 1px solid;
+  width: 60%;
+  margin: 6px auto;
+}
+
+#summary {
+  margin: 10px auto;
+  border: solid 1px lightgray;
+  border-radius: 5px;
+}
+textarea {
+  width: 75%;
+  padding: 10px;
+}
+
+.userdetail img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.col-1 {
+  width: 40%;
+  border-right: 2px solid lightgray;
+}
+.heading {
+  border-bottom: 1px solid lightgray;
+  margin-top: 10px;
+  height: 30px;
+}
+.heading h2 {
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.col-2 {
+  width: 60%;
+}
+.edit {
+  margin-left: 68%;
+  background-color: red;
+  width: 80px;
+  padding: 4px;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+.infos {
+  display: flex;
+  padding: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.infos p {
+  margin-left: 10px;
+}
+.infos-2 {
+  padding: 15px;
+  display: flex;
+}
+.infos-2 p{
+ width: 50%;
+}
+.infos-2 h4{
+  width: 30%;
+}
